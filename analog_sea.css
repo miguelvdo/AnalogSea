@@ -1,0 +1,100 @@
+body {
+	background-color: DodgerBlue;
+	position: fixed;
+	font-family: "Roboto", helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	padding-top: 60px;
+}
+
+img {
+	height: 35px;
+	display: block;
+	width: auto;
+	margin:0 auto 30px; /* why? */
+}
+
+.signup-form { /* why? */
+	margin: 0 auto;
+	width: 400px;
+	padding: 40px;
+	background-color: white;
+	border-radius: 3px;
+}
+
+legend {
+	text-align: center;
+	font-weight: 300; /* why? */
+	color: #565656;
+	margin: 0 auto 45px; /* why? */
+	font-size: 35px;
+	line-height: 38px; /* why? */
+	letter-spacing: 0;
+}
+
+
+
+input[type='email']:focus,
+input[type='password']:focus,
+button[type='submit']:focus {
+    border-color: #E7E7E7;
+    box-shadow: none; /* doesn't change anthing if I remove */
+}
+
+button[type="submit"] {
+color: white;
+background: #15CD72;
+border: 0;
+font-weight: 500;
+font-size: 22px;
+text-align: center;
+cursor: pointer;
+margin-bottom: 0;
+height: auto;
+}
+
+button:hover[type="submit"] {
+   background-color: #0CB863;
+   -webkit-transition: background 0.1s;
+   -moz-transition: background 0.1s;
+   -o-transition: background 0.1s;
+    transition: background 0.1s;
+}
+
+.signup-form p {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    color: #999;
+}
+
+.signup-form a {
+    text-decoration: none;
+    color: #999;
+    border-bottom: 1px solid #bbb;
+}
+
+.signup-form a:hover {
+    border-color: #999;
+    color: #777;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    margin: 20px auto;
+    font-weight: 600;
+    border: 0;
+    padding: 0;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover { color: #E7F1F9 }
+
+.footer p { margin-bottom: 40px }
+
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/> 
+	<title>AnalogSea Sign Up Page</title>
+	<meta name="AnalogSea Sign Up Page"> 
+	<link rel="stylesheet" href="analog_sea.css">
+	<img class="logo" src="https://tf-curricula-prod.s3.amazonaws.com/curricula/5b3249003592fc371bac5c6254b50c9c/FEWD-001/v6/assets2/1.6.2_challenge_signup_form/logo.png"/>
+	</head>
+	
+<body>
+ <form class="signup-form" action="/signup" method="post">
+ 	
+ 		<legend>Sign Up</legend>
+
+ 		<label for="user-email">Email</label>
+ 		<input type="email" name="user-email" id="user-email" placeholder="foo@bar.com" required/> <!--what does the id do? -->
+ 		<label for="user-password">Password</label>
+ 		<input type="password" label="false" name="user-password" id="user-password" placeholder="123passw0rd" required/> <!--what does the id do? why is the label false? -->
+ 		<button type='submit'>Sign Up</button>
+ 		<p> Already have an account? <a href="/forgot-password/new" class="pswrdlink">forgot password?</a></p>
+ </form>
+		<div class="footer">
+		<p> Already have an account? <a href="/login" class="login">Log In</a></p>
+	   </div>
+</body>
+</html>
